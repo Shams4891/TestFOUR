@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T10:20:11 EDT" name="Suite" finished-at="2021-09-03T10:20:11 EDT" duration-ms="148">
+    <groups>
+      <group name="regression">
+        <method signature="TestNG.test1()[pri:0, instance:test2.TestNG@53ce1329]" name="test1" class="test2.TestNG"/>
+        <method signature="TestNG.test4()[pri:0, instance:test2.TestNG@53ce1329]" name="test4" class="test2.TestNG"/>
+        <method signature="TestNGClass.test3()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test3" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test4()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test4" class="test2.TestNGClass"/>
+        <method signature="TestNG.test1()[pri:0, instance:test2.TestNG@4f80542f]" name="test1" class="test2.TestNG"/>
+        <method signature="TestNG.test4()[pri:0, instance:test2.TestNG@4f80542f]" name="test4" class="test2.TestNG"/>
+        <method signature="TestNGClass.test3()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test3" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test4()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test4" class="test2.TestNGClass"/>
+      </group> <!-- regression -->
+      <group name="Regression">
+        <method signature="TestNG.test3()[pri:0, instance:test2.TestNG@53ce1329]" name="test3" class="test2.TestNG"/>
+        <method signature="TestNG.test3()[pri:0, instance:test2.TestNG@4f80542f]" name="test3" class="test2.TestNG"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TestNG.test2()[pri:0, instance:test2.TestNG@53ce1329]" name="test2" class="test2.TestNG"/>
+        <method signature="TestNG.test3()[pri:0, instance:test2.TestNG@53ce1329]" name="test3" class="test2.TestNG"/>
+        <method signature="TestNGClass.test2()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test2" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test3()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test3" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test5()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test5" class="test2.TestNGClass"/>
+        <method signature="TestNG.test2()[pri:0, instance:test2.TestNG@4f80542f]" name="test2" class="test2.TestNG"/>
+        <method signature="TestNG.test3()[pri:0, instance:test2.TestNG@4f80542f]" name="test3" class="test2.TestNG"/>
+        <method signature="TestNGClass.test2()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test2" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test3()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test3" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test5()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test5" class="test2.TestNGClass"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNG.test1()[pri:0, instance:test2.TestNG@53ce1329]" name="test1" class="test2.TestNG"/>
+        <method signature="TestNG.test4()[pri:0, instance:test2.TestNG@53ce1329]" name="test4" class="test2.TestNG"/>
+        <method signature="TestNG.test5()[pri:0, instance:test2.TestNG@53ce1329]" name="test5" class="test2.TestNG"/>
+        <method signature="TestNGClass.test1()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test1" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test2()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test2" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test4()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test4" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test5()[pri:0, instance:test2.TestNGClass@316bcf94]" name="test5" class="test2.TestNGClass"/>
+        <method signature="TestNG.test1()[pri:0, instance:test2.TestNG@4f80542f]" name="test1" class="test2.TestNG"/>
+        <method signature="TestNG.test4()[pri:0, instance:test2.TestNG@4f80542f]" name="test4" class="test2.TestNG"/>
+        <method signature="TestNG.test5()[pri:0, instance:test2.TestNG@4f80542f]" name="test5" class="test2.TestNG"/>
+        <method signature="TestNGClass.test1()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test1" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test2()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test2" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test4()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test4" class="test2.TestNGClass"/>
+        <method signature="TestNGClass.test5()[pri:0, instance:test2.TestNGClass@60bd273d]" name="test5" class="test2.TestNGClass"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-09-03T10:20:11 EDT" name="Test1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="70">
+      <class name="test2.TestNG">
+        <test-method signature="test1()[pri:0, instance:test2.TestNG@53ce1329]" started-at="2021-09-03T10:20:11 EDT" name="test1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test2.TestNG@53ce1329]" started-at="2021-09-03T10:20:11 EDT" name="test2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:test2.TestNG@53ce1329]" started-at="2021-09-03T10:20:11 EDT" name="test3" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:test2.TestNG@53ce1329]" started-at="2021-09-03T10:20:11 EDT" name="test4" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:test2.TestNG@53ce1329]" started-at="2021-09-03T10:20:11 EDT" name="test5" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- test2.TestNG -->
+      <class name="test1.MyTestNG1">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test1.MyTestNG1@57cf54e1]" started-at="2021-09-03T10:20:11 EDT" name="beforeclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beformethod()[pri:0, instance:test1.MyTestNG1@57cf54e1]" started-at="2021-09-03T10:20:11 EDT" name="beformethod" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method signature="testcase1()[pri:0, instance:test1.MyTestNG1@57cf54e1]" started-at="2021-09-03T10:20:11 EDT" name="testcase1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:test1.MyTestNG1@57cf54e1]" started-at="2021-09-03T10:20:11 EDT" name="aftermethod" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test1.MyTestNG1@57cf54e1]" started-at="2021-09-03T10:20:11 EDT" name="afterclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test1.MyTestNG1 -->
+      <class name="test2.TestNGClass">
+        <test-method signature="test1()[pri:0, instance:test2.TestNGClass@316bcf94]" started-at="2021-09-03T10:20:11 EDT" name="test1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test2.TestNGClass@316bcf94]" started-at="2021-09-03T10:20:11 EDT" name="test2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:test2.TestNGClass@316bcf94]" started-at="2021-09-03T10:20:11 EDT" name="test3" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:test2.TestNGClass@316bcf94]" started-at="2021-09-03T10:20:11 EDT" name="test4" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:test2.TestNGClass@316bcf94]" started-at="2021-09-03T10:20:11 EDT" name="test5" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- test2.TestNGClass -->
+      <class name="test1.DataProviderTest">
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@f0da945]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shams]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tasvir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@f0da945]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@f0da945]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japan ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test1.DataProviderTest -->
+      <class name="test1.MyTestNG2">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test1.MyTestNG2@17497425]" started-at="2021-09-03T10:20:11 EDT" name="beforeclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="testcase2()[pri:0, instance:test1.MyTestNG2@17497425]" started-at="2021-09-03T10:20:11 EDT" name="testcase2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase1()[pri:0, instance:test1.MyTestNG2@17497425]" started-at="2021-09-03T10:20:11 EDT" name="testcase1" finished-at="2021-09-03T10:20:11 EDT" depends-on-methods="test1.MyTestNG2.testcase2" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test1.MyTestNG2@17497425]" started-at="2021-09-03T10:20:11 EDT" name="afterclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test1.MyTestNG2 -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-09-03T10:20:11 EDT" name="Test2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="17">
+      <class name="test2.TestNG">
+        <test-method signature="test1()[pri:0, instance:test2.TestNG@4f80542f]" started-at="2021-09-03T10:20:11 EDT" name="test1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test2.TestNG@4f80542f]" started-at="2021-09-03T10:20:11 EDT" name="test2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:test2.TestNG@4f80542f]" started-at="2021-09-03T10:20:11 EDT" name="test3" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test5()[pri:0, instance:test2.TestNG@4f80542f]" started-at="2021-09-03T10:20:11 EDT" name="test5" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test4()[pri:0, instance:test2.TestNG@4f80542f]" started-at="2021-09-03T10:20:11 EDT" name="test4" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test2.TestNG -->
+      <class name="test1.MyTestNG1">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test1.MyTestNG1@1ed6388a]" started-at="2021-09-03T10:20:11 EDT" name="beforeclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="testcase1()[pri:0, instance:test1.MyTestNG1@1ed6388a]" started-at="2021-09-03T10:20:11 EDT" name="testcase1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="beformethod()[pri:0, instance:test1.MyTestNG1@1ed6388a]" started-at="2021-09-03T10:20:11 EDT" name="beformethod" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:test1.MyTestNG1@1ed6388a]" started-at="2021-09-03T10:20:11 EDT" name="aftermethod" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test1.MyTestNG1@1ed6388a]" started-at="2021-09-03T10:20:11 EDT" name="afterclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test1.MyTestNG1 -->
+      <class name="test2.TestNGClass">
+        <test-method signature="test1()[pri:0, instance:test2.TestNGClass@60bd273d]" started-at="2021-09-03T10:20:11 EDT" name="test1" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test2.TestNGClass@60bd273d]" started-at="2021-09-03T10:20:11 EDT" name="test2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:test2.TestNGClass@60bd273d]" started-at="2021-09-03T10:20:11 EDT" name="test3" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:test2.TestNGClass@60bd273d]" started-at="2021-09-03T10:20:11 EDT" name="test4" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:test2.TestNGClass@60bd273d]" started-at="2021-09-03T10:20:11 EDT" name="test5" finished-at="2021-09-03T10:20:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- test2.TestNGClass -->
+      <class name="test1.DataProviderTest">
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@534a5a98]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shams]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tasvir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@534a5a98]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String,int)[pri:0, instance:test1.DataProviderTest@534a5a98]" started-at="2021-09-03T10:20:11 EDT" name="test2" data-provider="TestData" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japan ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test1.DataProviderTest -->
+      <class name="test1.MyTestNG2">
+        <test-method signature="testcase2()[pri:0, instance:test1.MyTestNG2@5a45133e]" started-at="2021-09-03T10:20:11 EDT" name="testcase2" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test1.MyTestNG2@5a45133e]" started-at="2021-09-03T10:20:11 EDT" name="beforeclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="testcase1()[pri:0, instance:test1.MyTestNG2@5a45133e]" started-at="2021-09-03T10:20:11 EDT" name="testcase1" finished-at="2021-09-03T10:20:11 EDT" depends-on-methods="test1.MyTestNG2.testcase2" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test1.MyTestNG2@5a45133e]" started-at="2021-09-03T10:20:11 EDT" name="afterclass" finished-at="2021-09-03T10:20:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test1.MyTestNG2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
