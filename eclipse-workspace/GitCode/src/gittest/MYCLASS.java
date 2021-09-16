@@ -18,6 +18,8 @@ public class MYCLASS {
 		System.out.println("GGGG");
 		
 		MYCLASS obj = new MYCLASS();
+		
+		System.out.println("GHGHGHGH");
 			
 			
 		
