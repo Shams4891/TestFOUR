@@ -4,7 +4,11 @@ public class MYCLASS {
 	
 	
 	
-	
+	MYCLASS(){
+		
+		
+		
+	}
 	
 	
 	
@@ -12,6 +16,14 @@ public class MYCLASS {
 		
 		
 		System.out.println("GGGG");
+		
+		MYCLASS obj = new MYCLASS();
+			
+			
+		
+		
+		
+		
 	}
 	
 
